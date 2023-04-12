@@ -1,8 +1,6 @@
 name: Apply Infrastructure via Terraform
 on:
   workflow_dispatch:
-  push:
-     branches: [main]
 jobs:
   terraform:
     runs-on: ubuntu-latest
